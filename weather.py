@@ -44,10 +44,10 @@ def wind_direction(degree):
     return directions[idx]
 
 # API calls
-'''
-geocode api : to get the latitude and longitude of the city
-open meteo api : to get the weather data of the city
-'''
+
+#geocode api : to get the latitude and longitude of the city
+#open meteo api : to get the weather data of the city
+
 
 def geocode (city):
     r = requests.get(
